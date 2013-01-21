@@ -14,7 +14,11 @@ print "Content-Type: text/html; charset=utf-8\r\n"
 print '''
 <!DOCTYPE HTML>
 <html><head>
-%s
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8">
+<META NAME="Title" CONTENT="Who's nicer?">
+<META NAME="Description" CONTENT="Facemesh clone">
+<META NAME="Document-state" CONTENT="Dynamic">
+<META NAME="author" content="M_Messiah">
 <script src=\"jquery-1.8.3.min.js\" type=\"text/javascript\"></script>
 <script>
 function choose(name1,name2) {
@@ -29,7 +33,7 @@ function choose(name1,name2) {
 </script>
 <title>Who's nicer?</title>
 </head>
-''' % META
+''' 
 print "<body>"
 form = cgi.FieldStorage()
 print "<div align=\"center\" id='result'>"

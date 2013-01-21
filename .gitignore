@@ -1,5 +1,6 @@
 pictures/*
 generate/names.txt
+config.py
 =======
 *.py[cod]
 
