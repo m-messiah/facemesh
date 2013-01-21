@@ -25,7 +25,7 @@ print '''
 '''
 print "<body>"
 print "<div align=\"center\" id='result'>"
-print "<h1>TOP 5</h1><br>"
+print "<h1>TOP 5 of %s</h1><br>" % SIZE
 cursor.execute("SELECT file,rate from photos ORDER BY rate DESC LIMIT 5")
 photos=cursor.fetchall()
 for (photo,rate) in photos:

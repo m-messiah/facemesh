@@ -51,7 +51,7 @@ if 'choice' in form:
     for i in range(2):
         cursor.execute("UPDATE photos SET rate='%5.2f' WHERE id=%d" % (newrate[i],ID[i]))
         db.commit()
-    
+
 print "<h1>Who is nicer?</h1><br>"
 img=[random.randint(1,SIZE) for i in range(2)]
 photo=range(2)
