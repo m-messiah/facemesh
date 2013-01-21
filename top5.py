@@ -14,6 +14,11 @@ print "Content-Type: text/html; charset=utf-8\r\n"
 print '''
 <!DOCTYPE HTML>
 <html><head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8">
+<META NAME="Title" CONTENT="TOP5 in facemesh">
+<META NAME="Description" CONTENT="Facemesh clone TOP5">
+<META NAME="Document-state" CONTENT="Dynamic">
+<META NAME="author" content="M_Messiah">
 <script src=\"jquery-1.8.3.min.js\" type=\"text/javascript\"></script>
 <title>TOP 5</title>
 </head>
